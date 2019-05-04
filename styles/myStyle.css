@@ -1,0 +1,219 @@
+body {
+    direction: rtl;
+    background-image: url(../pic/art-background-close-up-1939485.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px;
+   
+}
+#container 
+{
+    margin: 0 auto;
+    width: 960px;
+    color: black;
+    font-weight:600;
+    
+}
+/*עיצוב כותרת h1*/
+h1
+{
+    padding:10px 0px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkslateblue;
+    margin: 5px auto;
+    font-size: 22px;
+}
+/*הורדת הסימן ליד כל פריט
+ul{
+    list-style:none;
+}
+/*עיצוב כל תפריט הניווט*/
+nav{
+    padding: 5px 190px;
+    display:inline-block;
+}
+/*עיצוב תפריט הניווט כך שיופיע בצורה מאוזנת*/
+nav ul li {
+    display: inline-block; 
+    float: right;
+}
+/*עיצוב הפריטים בתפריט הניווט*/
+nav ul li a {
+        display: block;
+        color: black;
+        width: 140px;
+        height: 20px;
+        padding: 8px 0px;
+        margin: 10px 0px;
+        text-decoration: underline;
+        text-align: center;
+        font-size:15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/*עיצוב כאשר עוברים על פריט בתפריט ניווט*/
+nav ul li a:hover {
+        background-color: aliceblue;
+}
+/*עיצוב כאשר לוחצים על פריט בתפריט ניווט*/
+nav ul li a:active {
+        background-color: darkslateblue;
+}
+/*צבע לפריטים בתפריט הניווט בכדי שיהיה ברור איפה אני נמצאת*/
+.color {
+    background-color: lavender;
+}
+/*עיצוב התמונה שלי בדף הבית*/
+#me {
+    width: 150px;
+    height: 160px;
+    background-image: url(../pic/IMG_20180919_0829496.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    clear: both;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+
+}
+/*עיצוב הפסקה הראשונה בעמוד הבית*/
+#firstp {
+    padding: 63px 17px 82px 16px;
+    margin: auto;
+    display: inline-block;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*עיצוב האות הראשונה בפסקה*/
+/*#firstp:first-letter
+{
+    color:darkslateblue;
+    font-size:22px;
+    margin-left:1px;
+   font-weight:bold;
+}*/
+/*עיצוב כל הפסקאות*/
+p{
+    margin:5px 5px;
+}
+/*עיצוב כל כותרות h2 בדפים חוץ מדף הבית*/
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+    padding: 10px 18px;
+    text-align:right;
+    display:inline-block;
+    font-size:18px;
+}
+/*עיצוב כותרת h1 בכלל העמודים שהם לא דף הבית*/
+#meFirst {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+    padding: 10px 0px;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    font-size: 22px;
+}
+/*עיצוב כותרת h2 אשר ייחודית בדף הבית*/
+#homeh2 {
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslateblue;
+    display: inline-block;
+    padding: 5px 10px 15px 15px;
+    margin: auto;
+}
+/*עיצוב הפסקאות אשר חוזרות על עצמן בכל הדפים ובתוכן הסבר על התוכן*/
+.simp {
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 10px 10px 15px 15px;
+    margin: auto;
+}
+/*עיצוב הפסקה ההאחרונה בכל עמוד אשר מכילה את הזכויות יוצרים*/
+#lastp {
+    font-size: 10px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 15px 10px 15px 15px;
+    margin: auto;
+}
+/*עיצוב סביב קובץ הוידאו בעמוד הסעודה האחרונה*/
+#youtube {
+    margin: 30px 185px;
+    display: inline-block;
+    border: double;
+    border-width: 4px;
+}
+/*עיצוב מיקום האודיו בעמוד הפורטרט עצמי*/
+#audioport{
+    margin:20px 178px;
+}
+/*עיצוב מיקום האודיו בעמוד יום הולדת למכון*/
+#audiobday{
+    margin:20px 10px;
+}
+/*עיצוב החלק של התמונה כולל המשפט שמנחה לעבור עליה להצגת התוצר בעמוד הסעודה האחרונה*/
+#lastsup { 
+    margin: 20px 0px;
+    padding:10px 10px;
+    text-align: center;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/*עיצוב התמונה המוצגת של הסעודה האחרונה*/
+#img1 {
+    height:450px;
+    width:800px;
+    -webkit-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+    -ms-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}
+/*עיצוב התוצר במעבר עכבר על הסעודה האחרונה*/
+#img1:hover {
+    content: url(../pic/new_kast_sup.jpg);
+    width: 930px;
+        height: 550px;
+    display: inline-block;
+    -webkit-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+    -ms-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
+}
+/*עיצוב הפסקה שמנחה ללחוץ על התמונה להגדלה בעמוד יום הולדת למכון*/
+#bdayp{
+    text-align:center;
+}
+/*עיצוב התמונה שמוצגת בעמוד יום הולדת למכון*/
+#bdImg {
+    height: 350px;
+    width: 250px;
+    margin: 10px 347px;
+}
+ /*עיצוב סביב תמונת הפורטרט*/ 
+#port {
+    margin: 10px 10px;
+}
+#imgport {
+    height: 350px;
+    width: 500px;
+    margin: 10px 250px;
+}
+/*עיצוב הקו המפריד בעמוד הבית*/
+hr{
+    color:darkblue;
+    border:solid;
+    padding:1px;
+    margin: 10px 10px;
+}
+
+
